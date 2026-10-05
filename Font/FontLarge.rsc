@@ -1,11 +1,11 @@
 Font resource
 {
 	CharacterSet _characterSet = "Font/CharacterSet.rsc";
-	String _fontName = "Meiryo UI";
+	String _fontName = "Yu Gothic UI";
 	int _fontHeight = 48;
 	String _sheetName = "Build/FontLargeSheet.rsc";
-	int _sheetWidth = 256;
-	int _sheetHeight = 256;
+	int _sheetWidth = 1448;
+	int _sheetHeight = 1448;
 	String _materialName = "Font/FontLargeMaterial.rsc";
 	String _imageName = "Build/uiFontLargeImage.png";
 }
