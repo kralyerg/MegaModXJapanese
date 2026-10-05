@@ -1042,5 +1042,16 @@ ExternalList resource
 	"Dialog/StringTableMarket.rsc:resource"
 	"Dialog/StringTableMarket.rsc:objects"
 	"Dialog/StringTableResourcesExchange.rsc:toolbar"
+
+	// --- added 2026-10-05: orphaned-mod StringTable files that were already
+	// live in the 6 complete translation packs (German/Spanish/French/
+	// PortugueseBR/ChineseSimplified/Pirate) via the megamod07_scan sweep,
+	// but missing from English/Japanese -- real translations added to match
+	// (Black_White Cattle, Shawn Gate, Old TailorHouse v1.1 for 1.0.7,
+	// White Picket Fence) ---
+	"UI/BWCowStringTable.rsc:resource"
+	"UI/ShawnGateStringTable.rsc:resource"
+	"UI/RKOldTailorHouseStringTable.rsc:resource"
+	"Dialog/WhiteStringTable.rsc:objects"
 	]
 }
