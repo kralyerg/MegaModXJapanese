@@ -157,6 +157,8 @@ StringTable mainMenu
 		{	String _name = "ModInstalled";		String _text = "インストール済のMods";	}
 		{	String _name = "ModDefaultTip";		String _text = "";	}
 		{	String _name = "ModUpdateAvailable";		String _text = "変更を適用できます";	}
+		{	String _name = "ModResourceTitle";		String _text = "^jl^f1^c0リソース^f0^n MODに含まれるリソースを以下に示します。^c1オレンジ色で強調表示^c0された項目は他のMODと競合していますが、このMODのファイルが読み込まれます。^c2明るい黄色で強調表示^c0された項目は他のMODと競合しており、読み込まれません。";	}
+		{	String _name = "ModUpdateReload";		String _text = "1つ以上のMODがダウンロードまたは更新されました。このボタンを押すとゲームが再読み込みされ、MODを使用できるようになります。押さない場合、新しいMODは次にゲームまたはメインメニューを読み込んだときに利用可能になります。";	}
 		{	String _name = "ModSubscribeTip";		String _text = "このModをサブスクライブし、ダウンロードを開始します";	}
 		{	String _name = "ModSearchError";		String _text = "検索中にエラーが発生しました。時間をおいて再度試して下さい。";	}
 		{	String _name = "ModSearchNone";		String _text = "この条件では、何も見つかりませんでした。検索条件を変更してください。";	}
@@ -898,20 +900,35 @@ StringTable startConditions
 		{	String _name = "StartSettlers10Name";		String _text = "開拓者10家族スタート";	}
 		{	String _name = "StartSettlers10Desc";		String _text = "10家族で開始。小麦、桃、プラムあり。";	}
 		{	String _name = "HardPrairieName";		String _text = "ハード・プレーリー";	}
+		{	String _name = "HardPrairieDesc";		String _text = "家族4人による過酷なゲームが始まる。少量の衣類、食料、薪、道具が提供されます。農業用の種は入手できません。プレーリーのマップでのプレイを推奨します。";	}
 		{	String _name = "MediumPrairieName";		String _text = "ミディアム・プレーリー";	}
+		{	String _name = "MediumPrairieDesc";		String _text = "中試合は 5 つの家族で始まります。衣類、食料、薪、工具、建設資材が提供されます。すでに倉庫が建てられています。畑や果樹園用の種もいくつかあります。プレーリーのマップでのプレイを推奨します。";	}
 		{	String _name = "EasyPrairieName";		String _text = "イージー・プレーリー";	}
+		{	String _name = "EasyPrairieDesc";		String _text = "6人の家族で簡単なゲームが始まります。大量の衣類、食料、薪、建築資材、道具が提供されます。家や倉庫はすでに建てられています。畑や果樹園用の種のほか、家畜の群れも入手できます。プレーリーのマップでのプレイを推奨します。";	}
 		{	String _name = "PioneerName";		String _text = "パイオニア・サークル";	}
+		{	String _name = "PioneerDesc";		String _text = "6人の家族で始まるゲーム。適度な量の衣類、食料、薪、道具が提供されます。幌馬車の円陣がすでに作られています。畑用の種がいくつかあります。通常のマップでのプレイを推奨します。";	}
 		{	String _name = "PrairieName";		String _text = "プレーリー・サークル";	}
+		{	String _name = "PrairieDesc";		String _text = "4人の家族で始まるゲーム。適度な量の衣類、食料、薪、道具が提供されます。幌馬車の円陣がすでに作られています。畑用の種がいくつかあります。プレーリーのマップでのプレイを推奨します。";	}
 		{	String _name = "PrairieHardName";		String _text = "プレーリー・ハード";	}
+		{	String _name = "PrairieHardDesc";		String _text = "2人の家族で始まるゲーム。適度な量の衣類、食料、薪、道具が提供されます。幌馬車がいくつか作られています。畑用の種がいくつかあります。プレーリーのマップでのプレイを推奨します。";	}
 		{	String _name = "FairyMediumName";		String _text = "ミディアム・フェアリーテイル";	}
+		{	String _name = "FairyMediumDesc";		String _text = "中試合は 5 つの家族で始まります。衣類、食料、薪、工具、建設資材が提供されます。すでに倉庫が建てられています。畑や果樹園用の種もいくつかあります。";	}
 		{	String _name = "FairyEasyName";		String _text = "イージー・フェアリーテイル";	}
+		{	String _name = "FairyEasyDesc";		String _text = "8人の家族で簡単なゲームが始まります。大量の衣類、食料、薪、建築資材、道具が提供されます。倉庫はすでに建てられています。畑や果樹園用の種のほか、家畜の群れも入手できます。";	}
 		{	String _name = "HardSwampName";		String _text = "ハード・スワンプ";	}
+		{	String _name = "HardSwampDesc";		String _text = "家族4人による過酷なゲームが始まる。少量の衣類、食料、薪、道具が提供されます。農業用の種は入手できません。";	}
 		{	String _name = "MediumSwampName";		String _text = "ミディアム・スワンプ";	}
+		{	String _name = "MediumSwampDesc";		String _text = "中試合は 5 つの家族で始まります。衣類、食料、薪、工具、建設資材が提供されます。すでに倉庫が建てられています。畑や果樹園用の種もいくつかあります。";	}
 		{	String _name = "EasySwampName";		String _text = "イージー・スワンプ";	}
+		{	String _name = "EasySwampDesc";		String _text = "6人の家族で簡単なゲームが始まります。大量の衣類、食料、薪、建築資材、道具が提供されます。家や倉庫はすでに建てられています。畑や果樹園用の種のほか、家畜の群れも入手できます。";	}
 		{	String _name = "GrassHardName";		String _text = "グラス・ハード";	}
+		{	String _name = "GrassHardDesc";		String _text = "家族4人による過酷なゲームが始まる。少量の衣類、食料、薪、道具が提供されます。農業用の種は入手できません。草が追加されます。";	}
 		{	String _name = "GrassMediumName";		String _text = "グラス・ミディアム";	}
+		{	String _name = "GrassMediumDesc";		String _text = "中試合は 5 つの家族で始まります。衣類、食料、薪、工具、建設資材が提供されます。すでに倉庫が建てられています。畑や果樹園用の種もいくつかあります。草が追加されます。";	}
 		{	String _name = "GrassEasyName";		String _text = "グラス・イージー";	}
+		{	String _name = "GrassEasyDesc";		String _text = "6人の家族で簡単なゲームが始まります。大量の衣類、食料、薪、建築資材、道具が提供されます。家や倉庫はすでに建てられています。畑や果樹園用の種のほか、家畜の群れも入手できます。草が追加されます。";	}
 		{	String _name = "JapanName";		String _text = "日本";	}
+		{	String _name = "JapanDesc";		String _text = "6人の家族で始まる中難度のゲーム。米、大豆、茶、または桑の種で開始します。蚕の箱を解体すると蚕の卵が手に入ります。蔵がすでに建てられています。";	}
 	]
 }
 

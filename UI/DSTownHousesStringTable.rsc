@@ -83,6 +83,10 @@ StringTable resource
 		{	String _name = "RawMaterialNMCake2Require";		String _text = "ケーキ 16 ～ 20 個 (小麦粉 8 個 + 蜂蜜 4 個 + 卵 1 個)";	}
 		{	String _name = "RawMaterialNMCake3Require";		String _text = "ケーキ 16 ～ 20 個 (小麦粉 8 個 + ベリー 4 個 + 水 1 個)";	}
 		{	String _name = "RawMaterialNMCake4Require";		String _text = "ケーキ 16 ～ 20 個 (小麦粉 8 個 + ベリー 4 個 + 卵 1 個)";	}
+		{	String _name = "RawMaterialCake1Require";		String _text = "ケーキ 16 ～ 20 個 (小麦粉 8 個 + 蜂蜜 4 個 + 水 1 個)";	}
+		{	String _name = "RawMaterialCake2Require";		String _text = "ケーキ 16 ～ 20 個 (小麦粉 8 個 + 蜂蜜 4 個 + 卵 1 個)";	}
+		{	String _name = "RawMaterialCake3Require";		String _text = "ケーキ 16 ～ 20 個 (小麦粉 8 個 + ベリー 4 個 + 水 1 個)";	}
+		{	String _name = "RawMaterialCake4Require";		String _text = "ケーキ 16 ～ 20 個 (小麦粉 8 個 + ベリー 4 個 + 卵 1 個)";	}
 		{	String _name = "RawMaterialMeatPieVenisonRequire";		String _text = "9-13 ミートパイ (小麦粉 4 + 水 1 + 鹿肉 1)";	}
 		{	String _name = "RawMaterialMeatPieBeefRequire";		String _text = "9-13 ミートパイ (小麦粉 4 + 水 1 + 牛肉 1)";	}
 		{	String _name = "RawMaterialMeatPieMuttonRequire";		String _text = "9-13 ミートパイ (小麦粉 4 + 水 1 + マトン 1)";	}
