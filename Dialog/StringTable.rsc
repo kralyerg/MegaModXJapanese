@@ -1230,6 +1230,7 @@ StringTable professions
 		{	String _name = "ProfessionMinerTip";		String _text = "大地から鉄と石炭を掘り起こします。";	}
 		{	String _name = "ProfessionMinerDeath";		String _text = "は、落盤により死にました。";	}
 		{	String _name = "ProfessionStoneCutterTip";		String _text = "大地から石材を掘り起こします。";	}
+		{	String _name = "ProfessionStoneCutter";		String _text = "石切り職人";	}
 		{	String _name = "ProfessionStoneCutterDeath";		String _text = "は、岩に挟まれ、圧死しました。";	}
 		{	String _name = "ProfessionTeacher";		String _text = "教師";	}
 		{	String _name = "ProfessionTeacherTip";		String _text = "住人を教育し、労働生産性を向上させます。";	}
